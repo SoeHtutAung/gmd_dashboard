@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Grant Management Dashboard by OTA</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #17365d;
+            color: white;
+            padding: 22px 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 25px;
+        }
+
+        header p {
+            margin-bottom: 0;
+            font-size: 14px;
+        }
+
+        main {
+            max-width: 1500px;
+            margin: 25px auto;
+            padding: 0 20px;
+        }
+
+        .dashboard {
+            position: relative;
+            width: 100%;
+            height: 80vh;
+            min-height: 600px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .dashboard iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .document-download {
+            display: flex;
+            justify-content: center;
+            margin: 18px auto 0;
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #17365d;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: background 0.2s ease;
+        }
+
+        .download-button:hover,
+        .download-button:focus {
+            background: #24518a;
+        }
+
+        .download-button:focus-visible {
+            outline: 3px solid #f2b705;
+            outline-offset: 3px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 18px;
+            }
+
+            .dashboard {
+                height: 75vh;
+                min-height: 500px;
+            }
+
+            main {
+                padding: 0 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Grant Management Dashboard</h1>
+    <p>This interactive dashboard for program and financial performance monitoring is a pulic version of a real project by Soe H Aung, developed during a contract with HMST. In the final version of the real project, there are less visuals and functions for simplicity.</p>
+    <p><i><b>Note:</b> Open in full screen mode to view all the pages. 11 pages contain different aspect of the grant management. Please refer to the dashboard manaual for detail insturctions.</i></p>
+</header>
+
+<main>
+    <div class="dashboard">
+
+        <iframe
+            title="Programme Monitoring Dashboard"
+            src="https://app.powerbi.com/view?r=eyJrIjoiYTFlZTdhZDUtM2NiNy00NWU1LWE3NzktZTRlMzQyMzUzNzUyIiwidCI6ImQ5MzRlMDIwLWY3ZWItNDU2MS1iZWY5LThiM2MxNjI0NmZmNiIsImMiOjEwfQ%3D%3D"
+            allowfullscreen="true">
+        </iframe>
+
+    </div>
+
+    <div class="document-download">
+        <a
+            class="download-button"
+            href="https://github.com/SoeHtutAung/gmd_dashboard/blob/main/Public_dashboard_manual_20261105.pdf"
+            download>
+            Download the dashboard manual
+        </a>
+    </div>
+</main>
+
+<footer>
+    Grant Management Dashboard | One Tech Agency (Soe H Aung)
+</footer>
+
+</body>
+</html>
