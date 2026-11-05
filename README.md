@@ -1,2 +1,2 @@
-# gmd_dashboard
-Public version of a Power BI dashboard is kept in this repository for demonstration purpose. This dashboard is a Grant Management Dashboard, where KPIs in program and financial performance are monitored and visualized.
+# Power BI dashboard for Grant Management
+This Grant Management Dashboard can support the M&E focal and Senior Management Team to monitor the program and financial performance through KPIs. This is the public version of a real-world Power BI dashboard, anonymized for demonstration purpose. During the development, the design phase started with an Organizational Capacity Assessment, where gaps are identified and KPIs are defined. The M&E and Finance team deeply involved throughout the process and the whole process ensured participatory approach for sustainability.
